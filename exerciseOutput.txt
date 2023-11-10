@@ -1,0 +1,3658 @@
+working dir: /u/course/ece244i/public//2
+
+#############################################################
+#############################################################
+Running Testcase 1
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+0 0 0 0 0 0 0 0 6 1 1 2 2 3
+0 5 0 5 0 5 0
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./1 > /tmp/Pm3R25cSAP/zhaoru59.out1 2> /tmp/Pm3R25cSAP/zhaoru59.err1
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: Invalid column!
+Enter column to place piece: column chosen: 6
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+R_____Y
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+RR____Y
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+YY_____
+RR____Y
+Enter column to place piece: column chosen: 2
+
+R______
+Y______
+R______
+Y______
+R______
+YY_____
+RRR___Y
+Enter column to place piece: column chosen: 2
+
+R______
+Y______
+R______
+Y______
+R______
+YYY____
+RRR___Y
+Enter column to place piece: column chosen: 3
+
+R______
+Y______
+R______
+Y______
+R______
+YYY____
+RRRR__Y
+R won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_______
+_______
+_______
+R____Y_
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+R______
+R____Y_
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_______
+_______
+R____Y_
+R____Y_
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+R____Y_
+R____Y_
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_______
+R____Y_
+R____Y_
+R____Y_
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+R______
+R____Y_
+R____Y_
+R____Y_
+R won this round!
+R won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 2
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+0 6 0 6 0 6 0
+0 6 0 6 0 6 0
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./2 > /tmp/Pm3R25cSAP/zhaoru59.out2 2> /tmp/Pm3R25cSAP/zhaoru59.err2
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+R_____Y
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+R______
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+R_____Y
+R_____Y
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+R_____Y
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+R_____Y
+R_____Y
+R_____Y
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+R______
+R_____Y
+R_____Y
+R_____Y
+R won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+R_____Y
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+R______
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+R_____Y
+R_____Y
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+R_____Y
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+R_____Y
+R_____Y
+R_____Y
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+R______
+R_____Y
+R_____Y
+R_____Y
+R won this round!
+R won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 3
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+6 0 6 0 6 0 6
+6 0 6 0 6 0 6
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./3 > /tmp/Pm3R25cSAP/zhaoru59.out3 2> /tmp/Pm3R25cSAP/zhaoru59.err3
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+______R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+Y_____R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+______R
+Y_____R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y_____R
+Y_____R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+______R
+Y_____R
+Y_____R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+Y_____R
+Y_____R
+Y_____R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+______R
+Y_____R
+Y_____R
+Y_____R
+R won this round!
+Game 2
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+______R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+Y_____R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+______R
+Y_____R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y_____R
+Y_____R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+______R
+Y_____R
+Y_____R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+Y_____R
+Y_____R
+Y_____R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+______R
+Y_____R
+Y_____R
+Y_____R
+R won this round!
+R won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 4
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+0 1 1 0 2 2 2 3 3 3 3
+6 5 5 6 4 4 4 3 3 3 3
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./4 > /tmp/Pm3R25cSAP/zhaoru59.out4 2> /tmp/Pm3R25cSAP/zhaoru59.err4
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_______
+RY_____
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_R_____
+RY_____
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+YR_____
+RY_____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+YR_____
+RYR____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+YRY____
+RYR____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+__R____
+YRY____
+RYR____
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+__R____
+YRY____
+RYRY___
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+__R____
+YRYR___
+RYRY___
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+__RY___
+YRYR___
+RYRY___
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+___R___
+__RY___
+YRYR___
+RYRY___
+R won this round!
+Game 2
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+______R
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_______
+_______
+_______
+_____YR
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_______
+_______
+_____R_
+_____YR
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_____RY
+_____YR
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_______
+_______
+_______
+_____RY
+____RYR
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_______
+_______
+_______
+____YRY
+____RYR
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_______
+_______
+____R__
+____YRY
+____RYR
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+____R__
+____YRY
+___YRYR
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+____R__
+___RYRY
+___YRYR
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+___YR__
+___RYRY
+___YRYR
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+___R___
+___YR__
+___RYRY
+___YRYR
+R won this round!
+R won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 5
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+0 0 0 0 0 0 0 1 1 1 1 1 1 6 1 2 2 2 2 2 2 6 2 6 3 3 3 3 3 3 3
+0 0 1 1 2 2 3
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./5 > /tmp/Pm3R25cSAP/zhaoru59.out5 2> /tmp/Pm3R25cSAP/zhaoru59.err5
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+RY_____
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 6
+
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY____Y
+Enter column to place piece: column chosen: 1
+
+RR_____
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY____Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YR_____
+RY_____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YR_____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YRR____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RYY____
+YRR____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YRR____
+RYY____
+YRR____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 6
+
+RR_____
+YRR____
+RYY____
+YRR____
+RYY____
+YRR___Y
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY____
+YRR___Y
+RYY___Y
+Enter column to place piece: column chosen: 6
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY___Y
+YRR___Y
+RYY___Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY___Y
+YRR___Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY___Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYYR___
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRRY___
+RYYR___
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRRR___
+YRRY___
+RYYR___
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+R won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+Y______
+RR_____
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+YY_____
+RR_____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+YY_____
+RRR____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+YYY____
+RRR____
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+_______
+YYY____
+RRRR___
+R won this round!
+R won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 5 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 6
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+6 6 6 6 0 6 0 6 0 6
+0 0 1 1 2 2 3
+1 2 2 3 3 4 4 5
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./6 > /tmp/Pm3R25cSAP/zhaoru59.out6 2> /tmp/Pm3R25cSAP/zhaoru59.err6
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+______Y
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+______R
+______Y
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+______Y
+______R
+______Y
+______R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+______Y
+______R
+______Y
+R_____R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+______Y
+______Y
+______R
+______Y
+R_____R
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+______Y
+______Y
+______R
+R_____Y
+R_____R
+Enter column to place piece: column chosen: 6
+
+_______
+______Y
+______Y
+______Y
+______R
+R_____Y
+R_____R
+Enter column to place piece: column chosen: 0
+
+_______
+______Y
+______Y
+______Y
+R_____R
+R_____Y
+R_____R
+Enter column to place piece: column chosen: 6
+
+______Y
+______Y
+______Y
+______Y
+R_____R
+R_____Y
+R_____R
+Y won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+Y______
+RR_____
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+YY_____
+RR_____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+YY_____
+RRR____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+YYY____
+RRR____
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+_______
+YYY____
+RRRR___
+R won this round!
+Game 3
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_______
+_R_____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+_______
+_RY____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+__R____
+_RY____
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+_______
+__R____
+_RYY___
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+_______
+__RR___
+_RYY___
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_______
+_______
+_______
+__RR___
+_RYYY__
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_______
+_______
+_______
+__RRR__
+_RYYY__
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_______
+_______
+__RRR__
+_RYYYY_
+Y won this round!
+Y won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 6 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 7
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+0 1 0 1 0 1 0
+0 6 1 6 1 6 1 6
+0 0 0 0 0 0 0 1 1 2 2 3 3 4
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./7 > /tmp/Pm3R25cSAP/zhaoru59.out7 2> /tmp/Pm3R25cSAP/zhaoru59.err7
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_______
+RY_____
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+R______
+RY_____
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+RY_____
+RY_____
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+RY_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+RY_____
+RY_____
+RY_____
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+R______
+RY_____
+RY_____
+RY_____
+R won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+R_____Y
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_______
+RR____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+______Y
+RR____Y
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_R____Y
+RR____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+______Y
+_R____Y
+RR____Y
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_R____Y
+_R____Y
+RR____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+______Y
+_R____Y
+_R____Y
+RR____Y
+Y won this round!
+Game 3
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+YR_____
+RY_____
+Enter column to place piece: column chosen: 2
+
+R______
+Y______
+R______
+Y______
+R______
+YR_____
+RYY____
+Enter column to place piece: column chosen: 2
+
+R______
+Y______
+R______
+Y______
+R______
+YRR____
+RYY____
+Enter column to place piece: column chosen: 3
+
+R______
+Y______
+R______
+Y______
+R______
+YRR____
+RYYY___
+Enter column to place piece: column chosen: 3
+
+R______
+Y______
+R______
+Y______
+R______
+YRRR___
+RYYY___
+Enter column to place piece: column chosen: 4
+
+R______
+Y______
+R______
+Y______
+R______
+YRRR___
+RYYYY__
+Y won this round!
+Y won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 7 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 8
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+1 0 2 1 2 2 3 3 3 3
+0 0 0 0 0 1 0 0 1 1 1 1 6 1 6 2 2 2 2 2 3 3 3 3
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./8 > /tmp/Pm3R25cSAP/zhaoru59.out8 2> /tmp/Pm3R25cSAP/zhaoru59.err8
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_______
+_R_____
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+YR_____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+_______
+YRR____
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+_______
+_______
+_______
+_Y_____
+YRR____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+_______
+_YR____
+YRR____
+Enter column to place piece: column chosen: 2
+
+_______
+_______
+_______
+_______
+__Y____
+_YR____
+YRR____
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+__Y____
+_YR____
+YRRR___
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+__Y____
+_YRY___
+YRRR___
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+_______
+__YR___
+_YRY___
+YRRR___
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_______
+___Y___
+__YR___
+_YRY___
+YRRR___
+Y won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 0
+
+_______
+R______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 0
+
+Y______
+R______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+Y______
+R______
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+Y______
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+RY_____
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 6
+
+Y______
+R______
+RY_____
+YR_____
+RY_____
+YR_____
+RY____R
+Enter column to place piece: column chosen: 1
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY____R
+Enter column to place piece: column chosen: 6
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR____R
+RY____R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR____R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YRR____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRR___R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRRY__R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYYR___
+YRRY__R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRRY___
+RYYR___
+YRRY__R
+RYYR__R
+Y won this round!
+Y won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 8 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 9
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+0 0 0 0 0 1 0 0 1 1 1 1 6 1 6 2 2 2 2 2 3 3 3 3
+0 6 6 6 6 5 4 5 5 5 5 4 3 4 4 4 4 2 3 3 3 2 3
+0 6 6 6 6 5 4 5 5 5 5 4 4 4 4 0 4 0 3 3 3 3 3 3 1 1 3
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./9 > /tmp/Pm3R25cSAP/zhaoru59.out9 2> /tmp/Pm3R25cSAP/zhaoru59.err9
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 0
+
+_______
+R______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 0
+
+Y______
+R______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+Y______
+R______
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+Y______
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+RY_____
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 6
+
+Y______
+R______
+RY_____
+YR_____
+RY_____
+YR_____
+RY____R
+Enter column to place piece: column chosen: 1
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY____R
+Enter column to place piece: column chosen: 6
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR____R
+RY____R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR____R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YRR____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRR___R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRRY__R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYYR___
+YRRY__R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRRY___
+RYYR___
+YRRY__R
+RYYR__R
+Y won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+______R
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+______Y
+______R
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+______R
+______Y
+______R
+R_____Y
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+______R
+______Y
+______R
+R____YY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_______
+______R
+______Y
+______R
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+______R
+______Y
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+______R
+_____RY
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_____YR
+_____RY
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_____R_
+_____YR
+_____RY
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_____R_
+_____YR
+_____RY
+____YYR
+R___RYY
+Enter column to place piece: column chosen: 3
+
+_______
+_______
+_____R_
+_____YR
+_____RY
+____YYR
+R__RRYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_____R_
+_____YR
+____YRY
+____YYR
+R__RRYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_____R_
+____RYR
+____YRY
+____YYR
+R__RRYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+____YR_
+____RYR
+____YRY
+____YYR
+R__RRYY
+Enter column to place piece: column chosen: 4
+
+_______
+____R__
+____YR_
+____RYR
+____YRY
+____YYR
+R__RRYY
+Enter column to place piece: column chosen: 2
+
+_______
+____R__
+____YR_
+____RYR
+____YRY
+____YYR
+R_YRRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+____YR_
+____RYR
+____YRY
+___RYYR
+R_YRRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+____YR_
+____RYR
+___YYRY
+___RYYR
+R_YRRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+____YR_
+___RRYR
+___YYRY
+___RYYR
+R_YRRYY
+Enter column to place piece: column chosen: 2
+
+_______
+____R__
+____YR_
+___RRYR
+___YYRY
+__YRYYR
+R_YRRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+___RYR_
+___RRYR
+___YYRY
+__YRYYR
+R_YRRYY
+R won this round!
+Game 3
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+______R
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+______Y
+______R
+R_____Y
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+______R
+______Y
+______R
+R_____Y
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+______R
+______Y
+______R
+R____YY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_______
+______R
+______Y
+______R
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+______R
+______Y
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+______R
+_____RY
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_______
+_____YR
+_____RY
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 5
+
+_______
+_______
+_____R_
+_____YR
+_____RY
+_____YR
+R___RYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_____R_
+_____YR
+_____RY
+____YYR
+R___RYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_____R_
+_____YR
+____RRY
+____YYR
+R___RYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+_____R_
+____YYR
+____RRY
+____YYR
+R___RYY
+Enter column to place piece: column chosen: 4
+
+_______
+_______
+____RR_
+____YYR
+____RRY
+____YYR
+R___RYY
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+____RR_
+____YYR
+____RRY
+Y___YYR
+R___RYY
+Enter column to place piece: column chosen: 4
+
+_______
+____R__
+____RR_
+____YYR
+____RRY
+Y___YYR
+R___RYY
+Enter column to place piece: column chosen: 0
+
+_______
+____R__
+____RR_
+____YYR
+Y___RRY
+Y___YYR
+R___RYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+____RR_
+____YYR
+Y___RRY
+Y___YYR
+R__RRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+____RR_
+____YYR
+Y___RRY
+Y__YYYR
+R__RRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+____RR_
+____YYR
+Y__RRRY
+Y__YYYR
+R__RRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+____RR_
+___YYYR
+Y__RRRY
+Y__YYYR
+R__RRYY
+Enter column to place piece: column chosen: 3
+
+_______
+____R__
+___RRR_
+___YYYR
+Y__RRRY
+Y__YYYR
+R__RRYY
+Enter column to place piece: column chosen: 3
+
+_______
+___YR__
+___RRR_
+___YYYR
+Y__RRRY
+Y__YYYR
+R__RRYY
+Enter column to place piece: column chosen: 1
+
+_______
+___YR__
+___RRR_
+___YYYR
+Y__RRRY
+Y__YYYR
+RR_RRYY
+Enter column to place piece: column chosen: 1
+
+_______
+___YR__
+___RRR_
+___YYYR
+Y__RRRY
+YY_YYYR
+RR_RRYY
+Enter column to place piece: column chosen: 3
+
+___R___
+___YR__
+___RRR_
+___YYYR
+Y__RRRY
+YY_YYYR
+RR_RRYY
+R won this round!
+R won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 9 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+#############################################################
+#############################################################
+Running Testcase 10
+#############################################################
+#############################################################
+
+Running the following input on your program:
+=============================================================
+0 0 0 0 0 0 0 1 1 1 1 1 1 6 1 2 2 2 2 2 2 6 2 6 3 3 3 3 3 3 3
+0 0 0 0 0 1 0 0 1 1 1 1 6 1 6 2 2 2 2 2 3 3 3 3
+6 6 6 6 6 6 6 0 5 5 5 5 5 5 5 4 4 4 4 4 4 0 4 3 3 3 3 3 3 0 2 2 2 2 2 2 2 1 0 0 0 0 3
+
+/tmp/Pm3R25cSAP/connectfour.zhaoru59 < ./10 > /tmp/Pm3R25cSAP/zhaoru59.out10 2> /tmp/Pm3R25cSAP/zhaoru59.err10
+-------------------------------------------------------------
+
+Your program produced the following output:
+=============================================================
+Game 1
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+R______
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+Y______
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+Y______
+RY_____
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 6
+
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY____Y
+Enter column to place piece: column chosen: 1
+
+RR_____
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY____Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YR_____
+RY_____
+YR_____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YR_____
+RY_____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YR_____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RY_____
+YRR____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YR_____
+RYY____
+YRR____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RR_____
+YRR____
+RYY____
+YRR____
+RYY____
+YRR____
+RYY___Y
+Enter column to place piece: column chosen: 6
+
+RR_____
+YRR____
+RYY____
+YRR____
+RYY____
+YRR___Y
+RYY___Y
+Enter column to place piece: column chosen: 2
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY____
+YRR___Y
+RYY___Y
+Enter column to place piece: column chosen: 6
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY___Y
+YRR___Y
+RYY___Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY___Y
+YRR___Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYY___Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRR____
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYY____
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRR____
+RYYR___
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRR____
+YRRY___
+RYYR___
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+Enter column to place piece: column chosen: 3
+
+RRRR___
+YRRY___
+RYYR___
+YRRY___
+RYYR__Y
+YRRY__Y
+RYYR__Y
+R won this round!
+Game 2
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+_______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+_______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+_______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+_______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 0
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+R______
+Enter column to place piece: column chosen: 1
+
+_______
+_______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 0
+
+_______
+R______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 0
+
+Y______
+R______
+R______
+Y______
+R______
+Y______
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+Y______
+R______
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+Y______
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+R______
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 1
+
+Y______
+R______
+RY_____
+YR_____
+RY_____
+YR_____
+RY_____
+Enter column to place piece: column chosen: 6
+
+Y______
+R______
+RY_____
+YR_____
+RY_____
+YR_____
+RY____R
+Enter column to place piece: column chosen: 1
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR_____
+RY____R
+Enter column to place piece: column chosen: 6
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR____R
+RY____R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YR____R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RY_____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YR_____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RY_____
+YRR____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 2
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRR___R
+RYY___R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRR___R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYY____
+YRRY__R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRR____
+RYYR___
+YRRY__R
+RYYR__R
+Enter column to place piece: column chosen: 3
+
+Y______
+RY_____
+RYY____
+YRRY___
+RYYR___
+YRRY__R
+RYYR__R
+Y won this round!
+Game 3
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+_______
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+_______
+______Y
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+_______
+______R
+______Y
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+_______
+______Y
+______R
+______Y
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+_______
+______R
+______Y
+______R
+______Y
+______R
+Enter column to place piece: column chosen: 6
+
+_______
+______Y
+______R
+______Y
+______R
+______Y
+______R
+Enter column to place piece: column chosen: 6
+
+______R
+______Y
+______R
+______Y
+______R
+______Y
+______R
+Enter column to place piece: column chosen: 0
+
+______R
+______Y
+______R
+______Y
+______R
+______Y
+Y_____R
+Enter column to place piece: column chosen: 5
+
+______R
+______Y
+______R
+______Y
+______R
+______Y
+Y____RR
+Enter column to place piece: column chosen: 5
+
+______R
+______Y
+______R
+______Y
+______R
+_____YY
+Y____RR
+Enter column to place piece: column chosen: 5
+
+______R
+______Y
+______R
+______Y
+_____RR
+_____YY
+Y____RR
+Enter column to place piece: column chosen: 5
+
+______R
+______Y
+______R
+_____YY
+_____RR
+_____YY
+Y____RR
+Enter column to place piece: column chosen: 5
+
+______R
+______Y
+_____RR
+_____YY
+_____RR
+_____YY
+Y____RR
+Enter column to place piece: column chosen: 5
+
+______R
+_____YY
+_____RR
+_____YY
+_____RR
+_____YY
+Y____RR
+Enter column to place piece: column chosen: 5
+
+_____RR
+_____YY
+_____RR
+_____YY
+_____RR
+_____YY
+Y____RR
+Enter column to place piece: column chosen: 4
+
+_____RR
+_____YY
+_____RR
+_____YY
+_____RR
+_____YY
+Y___YRR
+Enter column to place piece: column chosen: 4
+
+_____RR
+_____YY
+_____RR
+_____YY
+_____RR
+____RYY
+Y___YRR
+Enter column to place piece: column chosen: 4
+
+_____RR
+_____YY
+_____RR
+_____YY
+____YRR
+____RYY
+Y___YRR
+Enter column to place piece: column chosen: 4
+
+_____RR
+_____YY
+_____RR
+____RYY
+____YRR
+____RYY
+Y___YRR
+Enter column to place piece: column chosen: 4
+
+_____RR
+_____YY
+____YRR
+____RYY
+____YRR
+____RYY
+Y___YRR
+Enter column to place piece: column chosen: 4
+
+_____RR
+____RYY
+____YRR
+____RYY
+____YRR
+____RYY
+Y___YRR
+Enter column to place piece: column chosen: 0
+
+_____RR
+____RYY
+____YRR
+____RYY
+____YRR
+Y___RYY
+Y___YRR
+Enter column to place piece: column chosen: 4
+
+____RRR
+____RYY
+____YRR
+____RYY
+____YRR
+Y___RYY
+Y___YRR
+Enter column to place piece: column chosen: 3
+
+____RRR
+____RYY
+____YRR
+____RYY
+____YRR
+Y___RYY
+Y__YYRR
+Enter column to place piece: column chosen: 3
+
+____RRR
+____RYY
+____YRR
+____RYY
+____YRR
+Y__RRYY
+Y__YYRR
+Enter column to place piece: column chosen: 3
+
+____RRR
+____RYY
+____YRR
+____RYY
+___YYRR
+Y__RRYY
+Y__YYRR
+Enter column to place piece: column chosen: 3
+
+____RRR
+____RYY
+____YRR
+___RRYY
+___YYRR
+Y__RRYY
+Y__YYRR
+Enter column to place piece: column chosen: 3
+
+____RRR
+____RYY
+___YYRR
+___RRYY
+___YYRR
+Y__RRYY
+Y__YYRR
+Enter column to place piece: column chosen: 3
+
+____RRR
+___RRYY
+___YYRR
+___RRYY
+___YYRR
+Y__RRYY
+Y__YYRR
+Enter column to place piece: column chosen: 0
+
+____RRR
+___RRYY
+___YYRR
+___RRYY
+Y__YYRR
+Y__RRYY
+Y__YYRR
+Enter column to place piece: column chosen: 2
+
+____RRR
+___RRYY
+___YYRR
+___RRYY
+Y__YYRR
+Y__RRYY
+Y_RYYRR
+Enter column to place piece: column chosen: 2
+
+____RRR
+___RRYY
+___YYRR
+___RRYY
+Y__YYRR
+Y_YRRYY
+Y_RYYRR
+Enter column to place piece: column chosen: 2
+
+____RRR
+___RRYY
+___YYRR
+___RRYY
+Y_RYYRR
+Y_YRRYY
+Y_RYYRR
+Enter column to place piece: column chosen: 2
+
+____RRR
+___RRYY
+___YYRR
+__YRRYY
+Y_RYYRR
+Y_YRRYY
+Y_RYYRR
+Enter column to place piece: column chosen: 2
+
+____RRR
+___RRYY
+__RYYRR
+__YRRYY
+Y_RYYRR
+Y_YRRYY
+Y_RYYRR
+Enter column to place piece: column chosen: 2
+
+____RRR
+__YRRYY
+__RYYRR
+__YRRYY
+Y_RYYRR
+Y_YRRYY
+Y_RYYRR
+Enter column to place piece: column chosen: 2
+
+__R_RRR
+__YRRYY
+__RYYRR
+__YRRYY
+Y_RYYRR
+Y_YRRYY
+Y_RYYRR
+Enter column to place piece: column chosen: 1
+
+__R_RRR
+__YRRYY
+__RYYRR
+__YRRYY
+Y_RYYRR
+Y_YRRYY
+YYRYYRR
+Enter column to place piece: column chosen: 0
+
+__R_RRR
+__YRRYY
+__RYYRR
+R_YRRYY
+Y_RYYRR
+Y_YRRYY
+YYRYYRR
+Enter column to place piece: column chosen: 0
+
+__R_RRR
+__YRRYY
+Y_RYYRR
+R_YRRYY
+Y_RYYRR
+Y_YRRYY
+YYRYYRR
+Enter column to place piece: column chosen: 0
+
+__R_RRR
+R_YRRYY
+Y_RYYRR
+R_YRRYY
+Y_RYYRR
+Y_YRRYY
+YYRYYRR
+Enter column to place piece: column chosen: 0
+
+Y_R_RRR
+R_YRRYY
+Y_RYYRR
+R_YRRYY
+Y_RYYRR
+Y_YRRYY
+YYRYYRR
+Enter column to place piece: column chosen: 3
+
+Y_RRRRR
+R_YRRYY
+Y_RYYRR
+R_YRRYY
+Y_RYYRR
+Y_YRRYY
+YYRYYRR
+R won this round!
+R won the match!
+
+-------------------------------------------------------------
+
+<<<<<<<<< Comparing output to solution >>>>>>>>>>>>
+
+Running valgrind to check for memory leaks
+
+############### Testcase 10 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+
+
+#############################################################
+################# Summary for 10 test(s) #####################
+#############################################################
+
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+#############################################################
+#############################################################
+#############################################################
+
